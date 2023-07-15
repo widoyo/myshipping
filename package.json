@@ -14,6 +14,7 @@
     "@sveltejs/adapter-auto": "^2.1.0",
     "@sveltejs/adapter-cloudflare": "^2.3.0",
     "@sveltejs/kit": "^1.22.1",
+    "@types/bcrypt": "^5.0.0",
     "@unocss/core": "latest",
     "@unocss/extractor-svelte": "latest",
     "@unocss/preset-icons": "latest",
@@ -29,6 +30,13 @@
     "startCommand": "node .stackblitz.js && npm install && npm run dev"
   },
   "dependencies": {
-    "better-sqlite3": "^8.4.0"
+    "@lucia-auth/adapter-prisma": "^2.0.0",
+    "@picocss/pico": "^1.5.10",
+    "@prisma/client": "^4.16.2",
+    "bcrypt": "^5.1.0",
+    "better-sqlite3": "^8.4.0",
+    "lucia-auth": "^1.8.0",
+    "sqlite3": "^5.1.6",
+    "wrangler": "^3.1.2"
   }
 }
