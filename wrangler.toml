@@ -1,4 +1,0 @@
-[[d1_databases]]
-binding = "DB" # i.e. available in your Worker on env.DB
-database_name = "myshipping"
-database_id = "de3ec52a-1a2f-4860-a7a9-e487a3a42710"
